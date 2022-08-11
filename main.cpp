@@ -21,7 +21,7 @@ public:
     }
     char hardAI()
     {
-        srand (time(NULL));
+        //srand (time(NULL));
         float delay = rand() % 9000 + 1000;
         cout << delay;
         Sleep(delay);
